@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Mighty Ducks Hockey League</title>
   </head>
   <body>
-    <header>
-      <table>
-        <tr>
-          <td>
-            <img
-              src="./assets/LogoMightyducks-01.png"
-              alt="Logo Mighty Ducks"
-              height="150"
-              width="150"
-            />
-          </td>
-          <td>
+    <div class="div-body">
+      <header>
+        <div class="div-header">
+          <div class="div-h1">
             <h1>Mighty Ducks Hockey League</h1>
-            <nav>
-              <a>Home |</a>
-              <a href="about.html">About MDHL |</a>
-              <a href="contact.html">contact</a>
-            </nav>
-          </td>
-        </tr>
-      </table>
-    </header>
-    <main>
-      <table>
-        <tr>
-          <td>
-            <img
-              src="./assets/hockey1.jpg"
-              alt="Logo Hockey"
-              height="150"
-              width="150"
-            />
-          </td>
-          <td>
-            <h1>Upcoming Events</h1>
-            <article>
-              <h2>August 4</h2>
-              <p>MDSL Fundraiser</p>
-            </article>
-            <article>
-              <h2>August 16</h2>
-              <p>Season Kick-off: Meet the Teams</p>
-            </article>
-            <article>
-              <h2>September 1</h2>
-              <p>First Game of the Season (Check Game Schedule for details)</p>
-            </article>
-          </td>
-        </tr>
-      </table>
-    </main>
+          </div>
+          <div class="nav-img">
+            <img src="./assets/hockey1.jpg" alt="foto Hockey" id="hockey1">
+            <div class="div-nav">
+              <nav>
+                <ul>
+                  <li><a href="contact.html"  id="ref">Contact</a></li>
+                  <li><a href="about.html" id="ref">About</a></li> 
+                  <li><a href="#" id="ref" >Home</a></li>
+                </ul>
+              </nav>
+            </div>
+            <h2 id="h2-section">Upcoming Events</h2>
+          </div>  
+        </div>
+      </header>
+      <main>
+        <div class="div-t">
+          <table>
+            <tr>
+              <td>
+                <img src="./assets/LogoMightyducks-01.png" alt="Logo Hockey" id="img-logo">
+              </td>
+              <td>
+                <article>
+                  <h3>August 4</h3>
+                  <p>MDSL Fundraiser</p>
+                </article>
+                <article>
+                  <h3>August 16</h3>
+                  <p>Season Kick-off: Meet the Teams</p>
+                </article>
+                <article>
+                  <h3>September 1</h3>
+                  <p>First Game of the Season (Check Game Schedule for details)</p>
+                </article>
+              </td>
+            </tr>
+          </table>
+        </div>  
+      </main>
+    </div>
   </body>
 </html>
