@@ -53,7 +53,7 @@ li{
     display: inline;
 }
 
-a{
+#ref{
     background-color: #5F73FF;
     color: whitesmoke;
     font-weight: bolder;
@@ -109,4 +109,8 @@ h3{
 
 article{
     margin-top: 25px;
+}
+
+#contact{
+    margin-top: 20px;
 }
