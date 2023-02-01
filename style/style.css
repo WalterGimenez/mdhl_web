@@ -1,25 +1,91 @@
-/*From Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=PT+Serif:ital@1&family=Recursive:wght@300&display=swap');
-
 /* normalizamos el documento desde acá (por ahora)*/
 *{
 	margin: 0;
 	padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 
+header{
+    background-color: #DDFFBC;
+    min-height: 10vh;
+}
+
+.container-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.container-img, .container-nav{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    justify-self: self-end;
+}
+
+#hockey1,  #hockey2, #hockey3{
+    width: 60%;
+    height: 400px;
+    position: relative;
+    
+}
+
+
+main{
+    background-color: #91C788;
+    min-height: 85vh;
+}
+
+.container{
+    width: 80%;
+    height: 70vh;
+    background-color: aqua;
+    
+}
+
+dt, dd {
+    text-align: start;
+    
+}
+
+dd{
+    font-weight: normal;
+}
+
+#img-logo{
+    width: 130px;
+    height: 130px;
+    margin: 30px 70px 30px 10px;
+}
+
+
+
+
+footer{
+    background-color: #52734D;
+    min-height: 5vh;
+}
+
+/* 
 body{
-    font-family: 'Noto Serif', serif;
-    font-family: 'PT Serif', serif;
-    font-family: 'Recursive', sans-serif;
+    background-color: #FEFFDE;
     width: 60%;
     margin: auto;
-    margin-top: 50px;    
+    margin-top: 50px;
 }
 
 
 
 .div-header {
+    background-color: #FEFFDE;
     width: 1100px;
 }
 
@@ -54,7 +120,7 @@ li{
 }
 
 #ref{
-    background-color: #5F73FF;
+    background-color: #52734D;
     color: whitesmoke;
     font-weight: bolder;
     font-size: 20px;
@@ -72,7 +138,8 @@ li{
 
 
 #ref:hover{
-    background-color: #92EA60;
+    width: 100%;
+    background-color: #91C788;
 }
 
 
@@ -100,6 +167,9 @@ h2{
 h3,h2, p{
     font-weight: bolder;
 }
+main{
+    background-color: #DDFFBC;
+}
 
 h3{
     font-family: Arial, Helvetica, sans-serif;
@@ -113,4 +183,4 @@ article{
 
 #contact{
     margin-top: 20px;
-}
+} */
