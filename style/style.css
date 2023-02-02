@@ -27,6 +27,8 @@ header{
     justify-items: start;
 }
 
+
+
 h1{
     font-size: 3rem;
     font-style: italic;
@@ -85,23 +87,17 @@ h1{
     margin-bottom: 10px;
 }
 
-.container-h2{
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
-}
 
+#h2-game{
+    font-size: 2rem;
+    width: 100%;
+}
 
 
 main{
     min-height: 85vh;
 }
 
-
-
-.table-about{
-    margin-left: -30px;
-}
 
 dt, dd {
     font-size: 1.2rem;
@@ -139,5 +135,28 @@ li{
 footer{
     min-height: 5vh;
     font-weight: bolder;
+    text-align: center;
+}
+
+p{
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+table{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+th,td{
+    padding: 8px 20px;
+    text-align: left;
+}
+
+.td-rows{
     text-align: center;
 }
