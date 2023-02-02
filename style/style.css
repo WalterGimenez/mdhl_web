@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
     box-sizing: border-box;
-    background-color: #DDFFBC;
+    background-color: #B5D5C5;
     font-family: Arial;
 }
 
@@ -49,6 +49,9 @@ h1{
     z-index: 0;
 }
 
+#hockey2{
+    margin-bottom: 20px;
+}
 
 .ref{
     background-color: #52734D;
@@ -73,27 +76,31 @@ h1{
     background-color: #91C788;
 }
 
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 main{
     min-height: 85vh;
 }
 
 
-caption{
-    font-weight: bolder;
-    font-size: 2rem;
-}
 
 .table-about{
-    margin-left: -50px;
+    margin-left: -30px;
 }
 
 dt, dd {
     font-size: 1.2rem;
+    font-weight: bolder;
     text-align: start;
     
 }
 
 dd{
+    margin-top: 5px;
+    margin-bottom: 15px;
     font-weight: normal;
 }
 
@@ -102,7 +109,20 @@ dd{
     height: 130px;
     margin: 30px 70px 30px 10px;
 }
+#img-logo-about{
+    margin-left: 0;
+    margin-right: 0;
+}
 
+ul{
+  list-style: none;
+  margin-left: 0;
+}
+
+li{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
 
 footer{
     min-height: 5vh;
