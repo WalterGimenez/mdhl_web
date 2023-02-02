@@ -1,19 +1,19 @@
-/* normalizamos el documento desde acá*/
+/* normalizo el documento*/
 *{
 	margin: 0;
 	padding: 0;
     box-sizing: border-box;
+    background-color: #DDFFBC;
     font-family: Arial;
 }
 
 
 
 header{
-    background-color: #DDFFBC;
     min-height: 10vh;
 }
 
-.container-header{
+.container-header, .container-main{
     width: 80%;
     margin: auto;
     display: flex;
@@ -22,11 +22,6 @@ header{
 }
 
 
-/* .container-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
 
 h1{
     font-size: 3rem;
@@ -50,13 +45,10 @@ h1{
     width: 60%;
     height: 400px;
     position: relative;
-    z-index: 0;
-}
-
-#hockey1{
     margin-top: -20px;
     z-index: 0;
 }
+
 
 .ref{
     background-color: #52734D;
@@ -82,16 +74,15 @@ h1{
 }
 
 main{
-    background-color: #91C788;
     min-height: 85vh;
 }
 
-.container{
-    width: 80%;
-    height: 70vh;
-    background-color: aqua;
-    
+
+caption{
+    font-weight: bolder;
+    font-size: 2rem;
 }
+
 
 dt, dd {
     text-align: start;
@@ -109,121 +100,8 @@ dd{
 }
 
 
-
-
 footer{
-    background-color: #52734D;
     min-height: 5vh;
-    text-align: center;
-}
-
-/* 
-body{
-    background-color: #FEFFDE;
-    width: 60%;
-    margin: auto;
-    margin-top: 50px;
-}
-
-
-
-.div-header {
-    background-color: #FEFFDE;
-    width: 1100px;
-}
-
-
-
-h1{
-    font-size: 3rem;
-    font-style: italic;
-}
-
-.nav-img{
-    position: relative;
-}
-
-#hockey1,  #hockey2, #hockey3{
-    width: 100%;
-    height: 400px;
-    position: relative;
-    
-}
-
-.div-nav{
-    position: absolute;
-    top: -20px;
-    right: -6px;
-}
-
-
-
-li{
-    display: inline;
-}
-
-#ref{
-    background-color: #52734D;
-    color: whitesmoke;
-    font-weight: bolder;
-    font-size: 20px;
-    padding: 5px 15px;
-    border: 2px solid black;
-    box-shadow: 5px 5px rgba(116, 110, 110, 0.5);
-    float: right;
-    margin-left: 5px;
-    margin-right: 10px;
-    text-decoration: none;
-    width: 110px;
-    height: 40px;
-    text-align: center;
-}
-
-
-#ref:hover{
-    width: 100%;
-    background-color: #91C788;
-}
-
-
-
- #h2-section{
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     text-align: center;
-    font-size: 2rem;
-    border: 2px solid black;
-    margin-top: -3px;
 }
-
-
-#img-logo{
-    width: 130px;
-    height: 130px;
-    margin: 30px 70px 30px 10px;
-}
-
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h3,h2, p{
-    font-weight: bolder;
-}
-main{
-    background-color: #DDFFBC;
-}
-
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-
-}
-
-article{
-    margin-top: 25px;
-}
-
-#contact{
-    margin-top: 20px;
-} */
