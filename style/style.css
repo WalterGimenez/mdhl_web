@@ -5,6 +5,7 @@
     box-sizing: border-box;
     background-color: #B5D5C5;
     font-family: Arial;
+    font-size: 1.2rem;
 }
 
 
@@ -89,7 +90,7 @@ h1{
 
 
 #h2-game{
-    font-size: 2rem;
+    /* font-size: 2rem; */
     width: 100%;
 }
 
@@ -100,7 +101,7 @@ main{
 
 
 dt, dd {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-weight: bolder;
     text-align: start;
     
@@ -128,7 +129,7 @@ ul{
 }
 
 li{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin-bottom: 10px;
 }
 
@@ -141,13 +142,13 @@ footer{
 .p-game{
     margin-top: 10px;
     margin-left: 20%;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-style: italic;
     text-decoration: underline;
 }
 
 table{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin-top: 20px;
     margin-left: 20%;
     margin-bottom: 40px;
@@ -162,12 +163,12 @@ th,td{
     text-align: center;
 }
 
-.p-left,.p-left1,.p-left2,.container-main-index{
+.p-left,.p-left1,.p-left2,.container-main-index,.container-r{
     margin-left: 20%;
 }
 
 .p-inline,.p-inline1{
-    margin-left: 2.5%;
+    margin-left:8%;
 }
 
 .container-p{
@@ -180,16 +181,22 @@ span{
     font-weight: bolder;
 }
 
+
+.p-left,.p-left1{
+    text-align: justify;
+}
+
 .p-left{
     margin-bottom: 10px;
 }
 
 .p-left1{
     margin-bottom: 20px;
+    width: 68%;
 }
 
 .p-center, #h2-index-rul{
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
     text-align: center;
     margin-bottom: 25px;
 }
@@ -199,11 +206,46 @@ span{
 }
 
 .p-space{
-    font-size: 1.6rem;
-    width: 60%;
+    /* font-size: 1.6rem; */
+    width: 80%;
     margin-top: 10px;
     margin-left: 20px;
-    margin-bottom: 30px;
-    text-indent: 30px;
+    margin-bottom: 40px;
+    text-indent: 20px;
     text-align: justify;
+}
+
+ol,.container-r{
+    margin-top: 20px;
+}
+
+.li-rules{
+    margin-left: 22%;
+    /* font-size: 1.6rem; */
+    width: 64%;
+    text-align: justify;
+}
+
+.li-marg{
+    margin-left: 5%;
+    margin-bottom: 0;
+    width: 95%;
+}
+
+.p-marg1{
+    margin-bottom: 20px;
+}
+
+.ul-style{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    text-indent: 20px;
+    text-align: justify;
+    list-style: circle;
+}
+
+.li-marg2{
+    margin-left: 25%;
+    width: 60%;
+    /* text-align: justify; */
 }
