@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./style/style.css" />
     <title>Mighty Ducks Hockey League</title>
 </head>
-
-<body class="b-form">
+<body>
     <header>
         <div class="container-header">
             <h1>Mighty Ducks Hockey League</h1>
@@ -33,10 +32,10 @@
         <form action="./show_data.html" method="get">
             <fieldset>
                 <label for="name" >Player's First Name:</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required minlength="5">
 
                 <label for="last" id="l-last">Last Name:</label>
-                <input type="text" name="last" id="last">
+                <input type="text" name="last" id="last" required minlength="5">
             </fieldset>
             <fieldset>
                 <label for="street">Street Address:</label>
@@ -46,10 +45,22 @@
                 <label for="city">City:</label>
                 <input type="text" name="city" id="city">
 
-                <label for="code" id="zip">Zip Code</label>
+                <label for="code" id="zip">Zip Code:</label>
                 <input type="number" name="code" id="code">
             </fieldset>
+            <fieldset>
+                <label for="date">Birth Date(mm/dd/yyyy):</label>
+                <input type="date" name="date" id="date">
 
+                <label for="gender" id="gend">Gender:</label>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Submit" id="submit">
+            </fieldset>
         </form>
     </main>
     <footer>Mighty Ducks Hockey League 2023 ©</footer>

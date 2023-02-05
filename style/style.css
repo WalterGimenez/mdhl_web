@@ -8,8 +8,6 @@
     font-size: 1.2rem;
 }
 
-
-
 header{
     min-height: 10vh;
 }
@@ -247,16 +245,10 @@ ol,.container-r{
 .f-game{
     margin-top: 25px;
 }
-.b-form{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
 
 form{
-    /* border: 2px solid black;
-    border-radius: 1rem; */
     padding: 1rem;
+    /* border: 2px solid whitesmoke ; */
 }
 
 fieldset{
@@ -265,10 +257,14 @@ fieldset{
     margin-bottom: 0.5rem;
 }
 
+input{
+    background-color: whitesmoke;
+}
+
 #last{
     width: 25.5%;
 }
-#l-last, #zip{
+#l-last, #zip,#gend{
     margin-left: 3.5%;
 }
 
@@ -277,10 +273,24 @@ fieldset{
 }
 
 #code{
-    width: 27.3%;
+    width: 26.7%;
 }
 
 #street{
     width: 68.9%;
-    
+}
+
+#date{
+    width: 21.2%;
+}
+
+
+#submit{
+    width: 8%;
+    border-radius: 5px;
+    background-color: #60a554;
+}
+
+#submit:hover{
+    background-color: rgb(189, 209, 37)
 }
