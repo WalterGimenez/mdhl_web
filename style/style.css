@@ -247,3 +247,40 @@ ol,.container-r{
 .f-game{
     margin-top: 25px;
 }
+.b-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form{
+    /* border: 2px solid black;
+    border-radius: 1rem; */
+    padding: 1rem;
+}
+
+fieldset{
+    border: none;
+    margin-left: 5%;
+    margin-bottom: 0.5rem;
+}
+
+#last{
+    width: 25.5%;
+}
+#l-last, #zip{
+    margin-left: 3.5%;
+}
+
+#city{
+    width: 38.5%;
+}
+
+#code{
+    width: 27.3%;
+}
+
+#street{
+    width: 68.9%;
+    
+}

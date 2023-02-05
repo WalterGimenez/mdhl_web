@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,30 +8,50 @@
     <link rel="stylesheet" href="./style/style.css" />
     <title>Mighty Ducks Hockey League</title>
 </head>
-<header>
-    <div class="container-header">
-        <h1>Mighty Ducks Hockey League</h1>
-    </div>
-    <div class="container-nav">
-        <nav>
-            <a href="#" class="ref">R. Form</a>
-            <a href="rules.html" class="ref">Rules</a>
-            <a href="game.html" class="ref">Game</a>
-            <a href="contact.html" class="ref">Contact</a>
-            <a href="about.html" class="ref">About</a>
-            <a href="index.html" class="ref">Home</a>
-        </nav>
-    </div>
-    <div class="container-img">
-        <img src="./assets/icehd3.jpg" alt="foto Hockey" id="hockey1" />
-    </div>
-    <h2 id="h2-index">REGISTRATION FORM</h2>
-</header>
-<body>
+
+<body class="b-form">
+    <header>
+        <div class="container-header">
+            <h1>Mighty Ducks Hockey League</h1>
+        </div>
+        <div class="container-nav">
+            <nav>
+                <a href="#" class="ref">R. Form</a>
+                <a href="rules.html" class="ref">Rules</a>
+                <a href="game.html" class="ref">Game</a>
+                <a href="contact.html" class="ref">Contact</a>
+                <a href="about.html" class="ref">About</a>
+                <a href="index.html" class="ref">Home</a>
+            </nav>
+        </div>
+        <div class="container-img">
+            <img src="./assets/icehd3.jpg" alt="foto Hockey" id="hockey1" />
+        </div>
+        <h2 id="h2-index">REGISTRATION FORM</h2>
+    </header>
     <main>
-        
+        <form action="./show_data.html" method="get">
+            <fieldset>
+                <label for="name" >Player's First Name:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="last" id="l-last">Last Name:</label>
+                <input type="text" name="last" id="last">
+            </fieldset>
+            <fieldset>
+                <label for="street">Street Address:</label>
+                <input type="text" name="street" id="street">
+            </fieldset>
+            <fieldset>
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city">
+
+                <label for="code" id="zip">Zip Code</label>
+                <input type="number" name="code" id="code">
+            </fieldset>
+
+        </form>
     </main>
     <footer>Mighty Ducks Hockey League 2023 ©</footer>
 </body>
-
 </html>
