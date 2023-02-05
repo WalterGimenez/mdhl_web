@@ -43,13 +43,13 @@ h1{
 }
 
 .container-nav{
-    width: 80%;
+    width: 83%;
     display: flex;
     justify-content: end;
 }
 
 #hockey1,#hockey2,#hockey3,#hockey4{
-    width: 60%;
+    width: 66%;
     height: 400px;
     position: relative;
     margin-top: -20px;
