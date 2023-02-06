@@ -288,9 +288,35 @@ input{
 #submit{
     width: 8%;
     border-radius: 5px;
+    color: whitesmoke;
     background-color: #60a554;
 }
 
 #submit:hover{
     background-color: rgb(189, 209, 37)
+}
+
+#st,#nd,#rd,#th,#th5{
+    margin-left: 1%;
+}
+
+#st{
+    margin-left: 3.2%;
+}
+
+.super{
+    font-size: 0.8rem;
+    vertical-align: super;
+}
+
+.p-form,.p-form2{
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.p-form2{
+    font-size: 1.1rem;
+    margin-top: 35px;
 }
