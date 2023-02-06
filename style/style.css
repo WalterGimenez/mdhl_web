@@ -284,17 +284,13 @@ input{
     width: 21.2%;
 }
 
-
-#submit{
-    width: 8%;
-    border-radius: 5px;
-    color: whitesmoke;
-    background-color: #60a554;
+#female,#male,#st,#nd,#rd,#th,#th5,#smal,#medium,#ymedium,#large,#ylarge,#elarge,#small,#aj,#marjo,
+#greenb,#north,#how,#south,#forw,#mid,#def,#goal{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 15px;
 }
 
-#submit:hover{
-    background-color: rgb(189, 209, 37)
-}
 
 #st,#nd,#rd,#th,#th5{
     margin-left: 1%;
@@ -309,14 +305,73 @@ input{
     vertical-align: super;
 }
 
-.p-form,.p-form2{
+.p-form,.p-form2,.p-form3{
     font-weight: bolder;
     margin-left: 5%;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
 .p-form2{
     font-size: 1.1rem;
     margin-top: 35px;
+}
+
+.p-form3{
+    margin-top: 20px;
+}
+
+#how{
+    margin-bottom: 20px;
+}
+
+#marjo{
+    margin-left: 9.9%;
+}
+
+#north{
+    margin-left: 16.2%;
+}
+
+#south{
+    margin-left: 7.5%;
+}
+
+#uni{
+    font-weight: bolder;
+}
+
+#smal{
+    margin-top: 25px;
+}
+
+#medium{
+    margin-left: 14.5%;
+}
+
+#large{
+    margin-left: 12%;
+}
+
+#elarge{
+    margin-left: 14%;
+}
+
+#mid,#goal{
+    margin-left: 12%;
+}
+
+#def{
+    margin-bottom: 25px;
+}
+
+#submit{
+    width: 8%;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #60a554;
+}
+
+#submit:hover{
+    background-color: rgb(189, 209, 37)
 }
