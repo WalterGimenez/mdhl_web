@@ -264,7 +264,7 @@ input{
 #last{
     width: 25.5%;
 }
-#l-last, #zip,#gend{
+#l-last, #zip,.p-form4{
     margin-left: 3.5%;
 }
 
@@ -309,7 +309,7 @@ input{
     font-weight: bolder;
     margin-left: 5%;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .p-form2{
@@ -319,6 +319,10 @@ input{
 
 .p-form3{
     margin-top: 20px;
+}
+
+.p-form4{
+    display: inline;
 }
 
 #how{
