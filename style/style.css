@@ -8,8 +8,6 @@
     font-size: 1.2rem;
 }
 
-
-
 header{
     min-height: 10vh;
 }
@@ -24,6 +22,7 @@ header{
 
 .container-h2{
     width: 60%;
+    margin-left: 10%;
     align-items: flex-start;
     justify-items: start;
 }
@@ -43,13 +42,13 @@ h1{
 }
 
 .container-nav{
-    width: 80%;
+    width: 83%;
     display: flex;
     justify-content: end;
 }
 
 #hockey1,#hockey2,#hockey3,#hockey4{
-    width: 60%;
+    width: 66%;
     height: 400px;
     position: relative;
     margin-top: -20px;
@@ -72,7 +71,7 @@ h1{
     margin-left: 5px;
     margin-right: 10px;
     text-decoration: none;
-    width: 110px;
+    width: 120px;
     height: 40px;
     text-align: center;
     position: relative;
@@ -90,7 +89,6 @@ h1{
 
 
 #h2-game{
-    /* font-size: 2rem; */
     width: 100%;
 }
 
@@ -101,7 +99,6 @@ main{
 
 
 dt, dd {
-    /* font-size: 1.2rem; */
     font-weight: bolder;
     text-align: start;
     
@@ -129,7 +126,6 @@ ul{
 }
 
 li{
-    /* font-size: 1.2rem; */
     margin-bottom: 10px;
 }
 
@@ -141,16 +137,14 @@ footer{
 
 .p-game{
     margin-top: 10px;
-    margin-left: 20%;
-    /* font-size: 1.2rem; */
+    margin-left: 10%;
     font-style: italic;
     text-decoration: underline;
 }
 
 table{
-    /* font-size: 1.2rem; */
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-bottom: 40px;
 }
 
@@ -163,18 +157,21 @@ th,td{
     text-align: center;
 }
 
-.p-left,.p-left1,.p-left2,.container-main-index,.container-r{
-    margin-left: 20%;
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
-.p-inline,.p-inline1{
-    margin-left:8%;
+
+.p-left,.p-left1,.p-left2,.container-main-index,.container-r{
+    margin-left: 10%;
 }
 
 .container-p{
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    width: 90%;
 }
 
 span{
@@ -196,7 +193,6 @@ span{
 }
 
 .p-center, #h2-index-rul{
-    /* font-size: 1.6rem; */
     text-align: center;
     margin-bottom: 25px;
 }
@@ -206,7 +202,6 @@ span{
 }
 
 .p-space{
-    /* font-size: 1.6rem; */
     width: 80%;
     margin-top: 10px;
     margin-left: 20px;
@@ -221,7 +216,6 @@ ol,.container-r{
 
 .li-rules{
     margin-left: 22%;
-    /* font-size: 1.6rem; */
     width: 64%;
     text-align: justify;
 }
@@ -247,8 +241,284 @@ ol,.container-r{
 .li-marg2{
     margin-left: 25%;
     width: 60%;
-    /* text-align: justify; */
 }
 .f-game{
+    margin-top: 35px;
+}
+
+form{
+    padding: 1rem;
+}
+
+fieldset{
+    border: none;
+    margin-left: 11%;
+    margin-bottom: 0.5rem;
+}
+
+input{
+    background-color: whitesmoke;
+}
+
+#last{
+    width: 22.8%;
+}
+#l-last, #zip{
+    margin-left: 3.5%;
+}
+
+.p-form4{
+    margin-left: 2%;
+}
+
+#city{
+    width: 38.5%;
+}
+
+#code{
+    width: 26.7%;
+}
+
+#street{
+    width: 68.9%;
+}
+
+#date{
+    width: 21.2%;
+}
+
+#female,#male,#st,#nd,#rd,#th,#th5,#smal,#medium,#ymedium,#large,#ylarge,#elarge,#small,#aj,#marjo,
+#greenb,#north,#how,#south,#forw,#mid,#def,#goal{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 15px;
+}
+
+
+#st,#nd,#rd,#th,#th5{
+    margin-left: 1%;
+}
+
+#st{
+    margin-left: 3.2%;
+}
+
+.super{
+    font-size: 0.8rem;
+    vertical-align: super;
+}
+
+.p-form,.p-form2,.p-form3{
+    font-weight: bolder;
+    margin-left: 11%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.p-form2{
+    font-size: 1.1rem;
+    margin-top: 35px;
+}
+
+.p-form3{
+    margin-top: 20px;
+}
+
+.p-form4{
+    display: inline;
+}
+
+.p-form5{
+    margin-left: 11%;
+    margin-bottom: 15px;
+    width: 79%;
+    text-align: justify;
+}
+
+#how{
+    margin-bottom: 20px;
+}
+
+#marjo{
+    margin-left: 9.9%;
+}
+
+#north{
+    margin-left: 15.1%;
+}
+
+#south{
+    margin-left: 7.5%;
+}
+
+#uni{
+    font-weight: bolder;
+}
+
+#smal{
     margin-top: 25px;
+}
+
+#medium{
+    margin-left: 14.5%;
+}
+
+#large{
+    margin-left: 12%;
+}
+
+#elarge{
+    margin-left: 14%;
+}
+
+#mid,#goal{
+    margin-left: 12%;
+}
+
+#def{
+    margin-bottom: 25px;
+}
+
+#small{
+    margin-bottom: 15px;
+}
+
+iframe{
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+
+
+#submit{
+    width: 8%;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: #60a554;
+}
+
+#submit:hover{
+    background-color: rgb(189, 209, 37)
+}
+
+
+
+@media only screen and (min-width: 320px) /* and (max-width: 765px)*/ { 
+    .container-nav{
+        width: 60%;
+        margin-left: 35px;
+        margin-bottom: 28px;
+    }
+
+    .ref{
+        margin-left: 40%;
+        margin-bottom: 6px;
+    }
+
+    #hockey1,#hockey2,#hockey3,#hockey4{
+        height: 130px;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    #h2-idex{
+
+        margin-bottom: 0;
+    }
+    .container-main{
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    #img-logo{
+        margin-top: 0;
+        margin-bottom: 10px;
+        margin-left: 27%;
+    }
+
+    fieldset{
+        margin-left: 0;
+    }
+    #name,#last,#street,#city,#zip,#code,#date,p-form4,label,.par{
+        width: 100%;
+    }
+
+    #female{
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+
+    #male{
+        margin-left: 10.4%;
+    }
+
+    .m-left{
+        margin-left: 32%;
+    }
+
+    #grade,.fw-rigth,.d-rigth{
+        margin-right: 55%;
+    }
+    .p-form4,.p-form,#north,#marjo,#south,.p-form3,.p-form5,#medium,#large,#elarge,#mid,#goal,.p-space{
+        margin-left: 0;
+    }
+    .p-form5{
+        text-align: start;
+    }
+
+    .aj-rigth{
+        margin-right: 30%;
+    }
+
+    .gb-rigth{
+        margin-right: 50%;
+    }
+
+    .h-rigth{
+        margin-right: 20%;
+    }
+
+    #submit{
+        width: 100px;
+    }
+
+    .p-form5{
+        width: 100%;
+        /* margin-left: 0; */
+    }
+
+    .ys-rigth{
+        margin-right: 45%;
+    }
+    .ym-rigth{
+        margin-right: 38%;
+    }
+
+    .yl-rigth{
+        margin-right: 40%;
+    }
+
+    #def{
+        margin-bottom: 15px;
+    }
+
+    .p-space{
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .li-rules{
+        margin-left: 10%;
+        width: 75%;
+    }
+
+    .li-marg{
+        margin-bottom: 15px;
+    }
+    .li-marg2{
+        margin-left: 10%;
+        width: 75%;
+    }
 }
