@@ -405,7 +405,7 @@ iframe{
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 765px) {
+@media only screen and (min-width: 320px) /* and (max-width: 765px)*/ { 
     .container-nav{
         width: 60%;
         margin-left: 35px;
@@ -414,6 +414,7 @@ iframe{
 
     .ref{
         margin-left: 40%;
+        margin-bottom: 6px;
     }
 
     #hockey1,#hockey2,#hockey3,#hockey4{
@@ -457,10 +458,10 @@ iframe{
         margin-left: 32%;
     }
 
-    #grade{
+    #grade,.fw-rigth,.d-rigth{
         margin-right: 55%;
     }
-    .p-form4,.p-form,#north,#marjo{
+    .p-form4,.p-form,#north,#marjo,#south,.p-form3,.p-form5,#medium,#large,#elarge,#mid,#goal,.p-space{
         margin-left: 0;
     }
     .p-form5{
@@ -470,9 +471,7 @@ iframe{
     .aj-rigth{
         margin-right: 30%;
     }
-    #marjo{
-        margin-left: 0;
-    }
+
     .gb-rigth{
         margin-right: 50%;
     }
@@ -481,20 +480,45 @@ iframe{
         margin-right: 20%;
     }
 
-    #south{
-        margin-left: 0;
-    }
-
-    .p-form3{
-        margin-left: 0;
-    }
-
     #submit{
         width: 100px;
     }
 
     .p-form5{
         width: 100%;
-        margin-left: 0;
+        /* margin-left: 0; */
+    }
+
+    .ys-rigth{
+        margin-right: 45%;
+    }
+    .ym-rigth{
+        margin-right: 38%;
+    }
+
+    .yl-rigth{
+        margin-right: 40%;
+    }
+
+    #def{
+        margin-bottom: 15px;
+    }
+
+    .p-space{
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .li-rules{
+        margin-left: 10%;
+        width: 75%;
+    }
+
+    .li-marg{
+        margin-bottom: 15px;
+    }
+    .li-marg2{
+        margin-left: 10%;
+        width: 75%;
     }
 }
