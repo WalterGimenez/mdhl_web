@@ -436,23 +436,65 @@ iframe{
         margin-bottom: 10px;
         margin-left: 27%;
     }
+
+    fieldset{
+        margin-left: 0;
+    }
     #name,#last,#street,#city,#zip,#code,#date,p-form4,label,.par{
         width: 100%;
     }
 
     #female{
         margin-top: 10%;
+        margin-right: 10%;
     }
 
     #male{
-        margin-bottom: 38%;
-        margin-left: 10.5%;
+        margin-left: 10.4%;
+    }
+
+    .m-left{
+        margin-left: 32%;
     }
 
     #grade{
+        margin-right: 55%;
+    }
+    .p-form4,.p-form,#north,#marjo{
+        margin-left: 0;
+    }
+    .p-form5{
+        text-align: none;
+    }
+
+    .aj-rigth{
+        margin-right: 30%;
+    }
+    #marjo{
+        margin-left: 0;
+    }
+    .gb-rigth{
         margin-right: 50%;
     }
-    #p-form4{
+
+    .h-rigth{
+        margin-right: 20%;
+    }
+
+    #south{
+        margin-left: 0;
+    }
+
+    .p-form3{
+        margin-left: 0;
+    }
+
+    #submit{
+        width: 100px;
+    }
+
+    .p-form5{
+        width: 100%;
         margin-left: 0;
     }
 }
